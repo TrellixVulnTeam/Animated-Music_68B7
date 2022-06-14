@@ -1,0 +1,23 @@
+{
+  "name": "animated-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass assets/sass/index.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnb123-a/Animated-Music.git"
+  },
+  "author": "John Barreto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnb123-a/Animated-Music/issues"
+  },
+  "homepage": "https://github.com/johnb123-a/Animated-Music#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

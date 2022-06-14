@@ -1,0 +1,42 @@
+* {
+  font-family: "Exo 2", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #f7f7f7; }
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  padding: 3rem; }
+  .header__logo img {
+    height: 8rem; }
+  .header__nav .nav__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .header__nav .nav__list--link {
+      margin: 0 3.6rem; }
+      .header__nav .nav__list--link a:link,
+      .header__nav .nav__list--link a:visited {
+        font-size: 2rem;
+        text-decoration: none;
+        color: #455a64; }
+        .header__nav .nav__list--link a:link:hover, .header__nav .nav__list--link a:link:active,
+        .header__nav .nav__list--link a:visited:hover,
+        .header__nav .nav__list--link a:visited:active {
+          color: #6893c8; }
