@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
   </head>
@@ -29,13 +36,30 @@
         </ul>
       </nav>
     </header>
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function () {
-        window.setTimeout(
-          document.querySelector("svg").classList.add("animated"),
-          1000
-        );
-      });
-    </script>
+    <main class="container">
+      <div class="container__image">
+        <img
+          class="container__image--img"
+          src="./assets/img/headphone-animate.svg"
+          alt=""
+        />
+      </div>
+      <div class="container__content">
+        <h1 class="container__content--title">no music. no life</h1>
+        <h2 class="container__content--subtitle">
+          experience the music like never before
+        </h2>
+        <div class="container__content--buttons">
+          <a href="#"><button>get started</button></a>
+          <a href="#"><button>read more</button></a>
+        </div>
+        <div class="container__content--icons">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
