@@ -1,18 +1,39 @@
 .header {
   width: 100%;
   position: fixed;
+  background: $blue-light;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 2;
-  padding: 3rem;
-
+  padding: 1.5rem;
+  &__btn {
+    display: none;
+  }
   &__logo {
     img {
-      height: 8rem;
+      height: 10rem;
     }
+  }
+  &__nav.active {
+    display: block;
+    padding: 1.5rem;
+    width: 30rem;
+    position: absolute;
+    top: 2rem;
+    right: 10rem;
+    border-radius: 2rem;
+    background: #eee;
+  }
+  &__nav.active .nav__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 1.5rem;
+    justify-content: center;
+    justify-items: center;
   }
   &__nav {
     .nav__list {
